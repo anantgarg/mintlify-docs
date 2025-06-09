@@ -12,6 +12,7 @@
     "tabs": [
       {
         "tab": "Guides",
+        "hidden":true,
         "groups": [
           {
             "group": "Get Started",
