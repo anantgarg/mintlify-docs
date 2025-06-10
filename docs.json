@@ -1,76 +1,145 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "linden",
-  "name": "Mint Starter Kit",
+  "name": "CometChat",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#6851d6",
+    "light": "#6851d6",
+    "dark": "#6851d6"
   },
-  "favicon": "/favicon.svg",
+  "background": {
+    "color": {
+      "dark": "#0a0915"
+    },
+    "decoration": "gradient"
+  },
+  "appearance": {
+    "default": "dark"
+  },
+  "fonts": {
+    "heading": {
+      "family": "Satoshi",
+      "source": "https://www.cometchat.com/_static/fonts/Satoshi-Variable.woff2",
+      "format": "woff2"
+    },
+    "body": {
+      "family": "Satoshi",
+      "source": "https://www.cometchat.com/_static/fonts/Satoshi-Variable.woff2",
+      "format": "woff2"
+    }
+  },
+  "favicon": "/favicon.png",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
-        "hidden":true,
-        "groups": [
+        "tab": "Home",
+        "pages": ["index"]
+      },
+      {
+        "tab": "Platform",
+        "dropdowns": [
           {
-            "group": "Get Started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
+            "dropdown": "Chat",
+            "icon": "comment",
+            "groups": [
+              {
+                "group": " ",
+                "pages": [
+                  "docs/fundamentals/overview",
+                  {
+                    "group": "Features",
+                    "pages": [
+                      "docs/fundamentals/features-core",
+                      {
+                        "group": "AI User Copilot",
+                        "pages": [
+                          "docs/fundamentals/ai-user-copilot/overview",
+                          "docs/fundamentals/ai-user-copilot/conversation-starter"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
             ]
           },
           {
-            "group": "Essentials",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+            "dropdown": "Calling",
+            "icon": "phone-volume",
+            "groups": [
+              {
+                "group": "Extend",
+                "pages": [
+                  {
+                    "group": "Notifications",
+                    "pages": ["docs/notifications/logs"]
+                  }
+                ]
+              }
             ]
           }
         ]
       },
       {
-        "tab": "API Reference",
-        "groups": [
+        "tab": "Integrate",
+        "dropdowns": [
           {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
+            "dropdown": "React",
+            "icon": "react",
+            "versions": [
+              {
+                "version": "v2",
+                "pages": [
+                    {
+                      "group": "Theming",
+                      "pages": [
+                        "docs/ui-kit/react/theme/color-resources"
+                        
+                      ]
+                    },
+                    "docs/changelog/angular"
+                  ]
+              },
+              {
+                "version": "v1",
+                "pages": [
+                  "docs/ui-kit/react/sound-manager"
+                ]
+              }
             ]
           },
           {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
+            "dropdown": "React Native",
+            "icon": "react",
+            "pages": ["docs/ui-kit/react-native/overview"]
+          },
+          {
+            "dropdown": "Angular",
+            "icon": "angular",
+            "pages": ["docs/ui-kit/angular/overview"]
           }
         ]
+      },
+      {
+        "tab": "API Reference",
+        "openapi": "openapi.json"
       }
     ],
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Help Center",
+          "href": "https://help.cometchat.com/hc/en-us",
+          "icon": "circle-question"
         },
         {
           "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
+          "href": "https://community.cometchat.com/",
+          "icon": "users"
         },
         {
           "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
+          "href": "https://www.cometchat.com/blog",
           "icon": "newspaper"
         }
       ]
@@ -78,26 +147,28 @@
   },
   "logo": {
     "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "dark": "/logo/dark.svg",
+    "href": "https://www.cometchat.com/"
   },
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Log in",
+        "href": "https://app.cometchat.com/login"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Schedule a demo",
+      "href": "https://www.cometchat.com/contact-sales?ref=topnav"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "linkedin": "https://www.linkedin.com/company/cometchat/",
+      "youtube": "https://www.youtube.com/c/CometChat",
+      "x": "https://twitter.com/CometChat",
+      "github": "https://www.github.com/cometchat"
     }
   }
 }
