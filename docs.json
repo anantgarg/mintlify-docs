@@ -37,6 +37,7 @@
       },
       {
         "tab": "Platform",
+        "hidden": true,
         "dropdowns": [
           {
             "dropdown": "Chat",
