@@ -127,23 +127,7 @@
       }
     ],
     "global": {
-      "anchors": [
-        {
-          "anchor": "Help Center",
-          "href": "https://help.cometchat.com/hc/en-us",
-          "icon": "circle-question"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://community.cometchat.com/",
-          "icon": "users"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://www.cometchat.com/blog",
-          "icon": "newspaper"
-        }
-      ]
+
     }
   },
   "logo": {
