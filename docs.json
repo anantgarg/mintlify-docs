@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "linden",
+  "theme": "almond",
   "name": "CometChat",
   "colors": {
     "primary": "#6851d6",
