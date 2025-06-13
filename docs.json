@@ -127,7 +127,7 @@
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
+    "light": "/docs/imgs/logo.svg",
     "dark": "/logo/dark.svg",
     "href": "https://www.cometchat.com/"
   },
