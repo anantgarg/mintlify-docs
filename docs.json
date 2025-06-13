@@ -15,13 +15,6 @@
   },
   "appearance": {
     "default": "dark"
-  },
-  "fonts": {
-    "heading": {
-      "family": "Satoshi",
-      "source": "https://www.cometchat.com/_static/fonts/Satoshi-Variable.woff2",
-      "format": "woff2"
-    }
 
   },
   "favicon": "/favicon.png",
