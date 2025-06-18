@@ -7,10 +7,10 @@
   const GAP       = 10;          // distance from trigger to menu (px)
 
   const ITEMS = [
-    { label: '↗️ React UI Kit',            href: '/fundamentals/overview',   heading: true },
-    { label: '✨ Angular UI Kit', href: '/changelog',       heading: true },
+    { label: '↗️ React UI Kit',            href: '/docs/fundamentals/overview',   heading: true },
+    { label: '✨ Angular UI Kit', href: '/docs/changelog',       heading: true },
     { divider: true },
-    { label: 'Fundamentals',       href: '/notifications/logs' }
+    { label: 'Fundamentals',       href: '/docs/notifications/logs' }
   ];
   /* ———————————————————————————————————————————————— */
 
