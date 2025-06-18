@@ -1,0 +1,12 @@
+/* content/nav-preload.css  -------------------------------------------
+   Hide Mintlify's default .nav-tabs markup on first paint to prevent
+   the "flash-then-replace" effect.  The JS script will unhide it
+   immediately after it finishes rewriting the element.                */
+
+.nav-tabs {           /* all states before JS runs */
+  visibility: hidden;           /* keeps size, prevents layout shift */
+}
+
+.nav-tabs.cc-ready {  /* toggled by custom.js when rewrite is done */
+  visibility: visible;
+}
