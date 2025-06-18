@@ -1,4 +1,6 @@
 // content/custom.js
+alert('hi');
+
 document.addEventListener('DOMContentLoaded', () => {
   /* --- 1. Grab the existing nav wrapper ----------------------------- */
   const target = document.querySelector('.nav-tabs');
